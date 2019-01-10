@@ -21,7 +21,7 @@ namespace BookViewer.Tests.Models
         }
 
         [TestMethod]
-        public void TestOpem()
+        public void TestOpen()
         {
             var book = new Book();
             // has～が、正しく通知されるかどうか判定するためイベントを監視する

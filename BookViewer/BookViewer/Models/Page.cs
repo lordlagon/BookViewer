@@ -8,11 +8,11 @@ namespace BookViewer.Models
         public int PageNo { get; }
         public string Text { get; }
 
-        public Page(int chapterNo, int pageNo)
+        public Page(int chapterNo, int pageNo, string text)
         {
             ChapterNo = chapterNo;
             PageNo = pageNo;
-            Text = $"Chapter-{chapterNo} Page-{pageNo}";
+            Text = text;
         }
     }
 }

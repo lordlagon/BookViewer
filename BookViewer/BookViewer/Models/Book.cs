@@ -7,7 +7,7 @@ namespace BookViewer.Models
 {
     public class Book : BindableBase, IBook
     {
-        public const int CountOfChapter = 20;
+        public int CountOfChapter =20 ;
         private IChapter _currentChapter;
         private IPage _currentPage;
 
